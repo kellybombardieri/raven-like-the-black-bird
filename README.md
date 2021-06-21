@@ -21,5 +21,5 @@ To access this code you will need to have Visual Studio Code downloaded onto you
 This project can be used as a base for anyone looking to create their own interactive portfolio.
 
 # Contact 
-Kelly Bombardieri github link
+GitHub Repository: https://github.com/kellybombardieri/raven-like-the-black-bird.git
 url: https://kellybombardieri.github.io/raven-like-the-black-bird/
