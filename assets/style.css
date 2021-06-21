@@ -1,0 +1,119 @@
+CSS
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --color: darkturquoise;
+}
+
+body {
+    background-color: rgb(255, 247, 247);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 20px;
+    background-color: darkorchid;
+    border-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color);
+    position: relative; 
+    width: 100%;
+}
+
+header h1 {
+    display: inline;
+    padding-top: 30px;
+    padding-left: 10px;
+    color: white;
+    background-color: var(--color);
+    margin-top: 15px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header section {
+    float: right;
+    padding-top: 20px;
+    padding-right: 10px;
+
+}
+
+header section ul li {
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+header section ul li:hover {
+    background-color: var(--color);
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+.background-image {
+    background-image: url("./images/kellyaerial2.jpg");
+    width: 100%;
+    background-position: center;
+    height: 400px;
+    background-repeat: repeat-x;
+    position: relative;
+    padding: 0px;
+}
+
+#overlayText {
+    position: absolute;
+    bottom: 8px;
+    right: 20px;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.about-me {
+    min-height: 100px;
+    width: 100%;
+}
+
+.about-me h2 {
+    float: left;
+    font-size: 30px;
+    padding: 50px 50px 50px;
+    border-right: 5px;
+    border-right-color: var(--color);
+    border-right-style: solid;
+}
+
+.about-me p {
+    margin-left: 10px;
+}
+
+.work {
+    width: 100%;
+}
+
+.work h2 {
+    float: left;
+}
+
+.div-1 {
+    position: relative;
+}
+
+#textId {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
